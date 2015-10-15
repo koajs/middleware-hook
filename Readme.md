@@ -49,6 +49,11 @@ Here's how you use hook:
 app.use(hook(bodyparser()))
 ```
 
+## TODO
+
+- solicit ideas for a better API
+- some more usage examples
+
 ## License
 
 MIT
