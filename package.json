@@ -6,7 +6,7 @@
   "author": "Matthew Mueller <matt@lapwinglabs.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/koa/middleware-hook.git"
+    "url": "git://github.com/koajs/middleware-hook.git"
   },
   "dependencies": {
     "debug": "^2.2.0",
