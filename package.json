@@ -1,8 +1,12 @@
 {
   "name": "koa-middleware-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "low-level granular hooks for your koa middleware",
-  "keywords": ["hooks", "middleware", "koa"],
+  "keywords": [
+    "hooks",
+    "middleware",
+    "koa"
+  ],
   "author": "Matthew Mueller <matt@lapwinglabs.com>",
   "repository": {
     "type": "git",
