@@ -46,14 +46,13 @@ function Hooks (marker, reduce) {
 
       // diff the previous end
       if (hooks.lower) {
-        hooks.lower_diff.push([ hooks.lower[hooks.lower.length - 1], end ])
         var beg = hooks.upper_diff.pop()
-        var fin = hooks.lower_diff.shift()
+        var fin = [ hooks.lower[hooks.lower.length - 1], end ]
         reduce(name, beg[0], beg[1], fin[0], fin[1])
+        hooks.lower.push(end)
       } else {
         // end of last composed function, diff with start of last composed function
         hooks.lower = [end]
-        hooks.lower_diff = []
         reduce(name, start, end)
       }
     }
